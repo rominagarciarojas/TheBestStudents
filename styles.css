@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #666666;
+  text-align: left;
+  background-color: #fff;
+}
+
+.grid_nav{
+  display: grid;
+  align-items: center;
+  background-color: rgb(245, 242, 242);
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
+  grid-template-columns: auto 10% 10% 10% 10% 10%;
+  grid-template-areas: 
+  'nav_logo nav_list1 nav_list2 nav_list3 nav_list4 nav_audio';
+}
+
+.nav_logo {
+  align-items: center;
+  padding-left: 1rem;
+  grid-area: nav_logo;
+}
+.nav_list1 {
+  text-align: center;
+  grid-area: nav_list1;
+}
+.nav_list2 {
+  text-align: center;
+  grid-area: nav_list2;
+}
+.nav_list3 {
+  text-align: center;
+  text-decoration: none;
+  grid-area: nav_list3;
+}
+.nav_list4 {
+  text-align: center;
+  grid-area: nav_list4;
+}
+.nav_audio {
+  padding-left: 1rem;
+  grid-area: nav_audio;
+}
+
+.grid_nav a {
+  color:rgb(43, 42, 42);
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav_logo p{
+  margin:0;
+  padding: 0.5rem;
+}
+
+.text_logo{
+  font-family: "Handbell", cursive;
+  font-size: 25px;
+  color: #007bff;
+}
+
+.estudiante{
+  color:  #007bff;
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:70%;
+}
+
+.boton_unirse{
+  background-color: #007bff;
+}
+
+
+h1{
+  color:  #fff;
+  font-family: "Handlee", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+  padding-top: 2rem;
+}
+
+.banner_text{
+  color:  #fff;
+  font-size: large;
+}
+
+.banner_text_h4{
+  color:  #fff;
+  font-size: 1.5rem;
+}
+.cont {
+  display: grid;
+  background-color: rgb(245, 242, 242);
+  grid-template-columns: auto 20% 20% 20% 20%;
+  gap: 1rem;
+  grid-template-areas: 
+  'banner banner banner banner banner'
+  'sidebar t1 t2 t3 t4'
+  'sidebar t5 t6 t7 t8'
+  'footer footer footer footer footer';
+}
+
+.cont_banner_1 {
+  padding-left: 4rem;
+  }
+.cont_banner_2 img{
+padding-left: 4rem;
+}
+
+.grid_banner {
+  border: 1px solid grey;
+  grid-area: banner;
+}
+.grid_sidebar {
+  grid-area: sidebar;
+}
+.grid_t1 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t1;
+}
+.grid_t2 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t2;
+}
+.grid_t3 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t3;
+}
+.grid_t4 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t4;
+}
+.grid_t5 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t5;
+}
+.grid_t6 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t6;
+}
+.grid_t7 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t7;
+}
+.grid_t8 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t8;
+}
+.grid_t9 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t9;
+}
+.grid_t10 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t10;
+}
+.grid_t11 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t11;
+}
+.grid_t12 {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  grid-area: t12;
+}
+.grid_footer {
+  border: 1px solid grey;
+  grid-area: footer;
+}
+
+.cont_banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #007bff;
+  align-items: center;
+  grid-template-areas: 
+  'cont_banner_1 cont_banner_2'
+  'cont_banner_1 cont_banner_2'
+  'cont_banner_1 cont_banner_2';
+}
+
+.cont_banner_1 {
+  grid-area: cont_banner_1;
+  text-align: center; 
+}
+
+.cont_banner_2 {
+  grid-area: cont_banner_2;
+}
+
+.tarjeta {
+  padding: 1%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%; 
+}
+
+.sidebar_menu{
+  padding-left: 1rem;
+  color:  grey;
+}
+.sidebar_lista{
+  list-style: none;
+}
+
+.sidebar_li a{
+  font-size: large;
+  color:rgb(43, 42, 42);
+  text-decoration: none;
+}
+.boton{
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: grey solid 1px;
+  cursor: pointer;
+  font-family: "Handlee";
+  border-radius: 10px ;
+}
+.sidebar_h4{
+  color: #007bff;
+}
+
+.sidebar_h3{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(43, 42, 42);
+  font-family: "Handlee";
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  border-radius: 10px ;
+  
+}
+
+.tarjeta_h6{
+  color: rgb(43, 42, 42);
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Inter",Verdana, Geneva, Tahoma, sans-serif
+}
+
+.grid_cont_footer{
+  display: grid;
+  background-color: #007bff;
+  color:#fff;
+  gap: 1rem;
+  grid-template-columns: 30% 40% auto;
+  grid-template-areas: 
+  'grid_footer1 grid_footer1 grid_footer1'
+  'grid_footer2 grid_footer3 grid_footer3'
+  'grid_footer4 grid_footer4 grid_footer4';
+}
+
+.grid_footer1 {
+  color:#fff;
+  background-color: #007bff;
+  grid-area: grid_footer1;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.grid_footer2 {
+  color:#fff;
+  background-color: #007bff;
+  grid-area: grid_footer2;
+  padding-left: 1rem;
+  font-size: medium;
+}
+.grid_footer3 {
+  grid-area: grid_footer3;
+  gap: 2rem;
+  padding-right: 1rem;
+}
+.grid_footer4 {
+  color:#fff;
+  background-color: #007bff;
+  grid-area: grid_footer4;
+  border-top:5px dotted #fff;
+  text-align: center;
+  padding: 1rem;
+}
+.grid_footer2 input {
+  padding: 5px 5px;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+.grid_footer2 label{
+  font-size: small;
+}
+.grid_footer2 textarea {
+  padding: 5px 5px;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
