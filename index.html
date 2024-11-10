@@ -12,190 +12,230 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/image/personas.ico"> 
     <link rel="stylesheet" href="styles.css">
     <title>Estudiante 10!</title>
 </head>
 <body>
-    <!-- Header Inicio  -->
+
 <header>
-    <section class="grid_nav">
-        <div class="nav_logo">
-            <p class="text_logo">Estudiante <i class="fa-solid fa-1"></i><i class="fa-solid fa-0"></i>!</p>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/image/personas.png" alt="Estudiante 10!" width="30" height="30">
+              </a>
+              <h5 class="navbar_h2">Estudiante 10!</h5>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto py-4 py-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/premios.html">Premios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-volume-off"> 
+                  <audio src="/music/musicOne.mp3" autoplay loop></audio>
+              </i></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="nav_list1">
-            <a href="index.html">Inicio</a>
-        </div>
-        <div class="nav_list2">   
-            <a href="/planificacion.html">Planificación</a>
-        </div>
-        <div class="nav_list3">
-            <a href="/premios.html">Premios</a>
-        </div>
-        <div class="nav_list4">
-            <a href="/contacto.html">Contacto</a>
-        </div>
-        <div class="nav_audio">
-            <i class="fa-solid fa-volume-off"> 
-                <audio src="/music/musicOne.mp3" autoplay loop></audio>
-            </i>
-        </div>
-    </section>
+      </nav>
 </header>
-<!-- Header Final -->
+
 <!-- Main Inicio -->   
 <main>
-    <section>
-        <div class="cont">
-            <div class="grid_banner">
-                <div class="cont_banner">
-                    <div class="cont_banner_1">
-                        <h4 class="banner_text_h4">¡Al colegio lo hacemos entre todos!</h4>
-                        <h1>Estudiante <i class="fa-solid fa-1"></i><i class="fa-solid fa-0"></i>!</h1>
-                        <p class="banner_text">Cada buena acción que hacemos en la escuela tiene premio. Acumulá la mayor cantidad de puntos con tus compañeros y canjealos a fin de mes por grandes premios. </p>
-                    </div>
-                    <div class="cont_banner_2">
-                        <img src="/image/portada.png" alt="portada">
-                    </div>
-                </div>
+<section>
+ <div id="contenedor_banner" class="container-fluid">
+    <div class="grid_banner">
+        <div class="cont_banner">
+            <div class="cont_banner_1">
+                <h4 class="banner_text_h4">¡Al colegio lo hacemos entre todos!</h4>
+                <h1>Estudiante <i class="fa-solid fa-1"></i><i class="fa-solid fa-0"></i>!</h1>
+                <p class="banner_text"><span class="span_banner">Cada buena acción que hacemos en la escuela tiene premio</span>. Acumulá la mayor cantidad de puntos con tus compañeros y canjealos por <span class="span_banner">grandes premios</span>. </p>
             </div>
-            <div class="grid_sidebar">
-                <div class="sidebar_menu">
-                    <h4 class="sidebar_h4">Hoy es...</h4>   
-                    <ul class="sidebar_lista">
-                        <li class="sidebar_li">
-                            <a href="#">Lunes</a>
-                        </li>
-                        <li class="sidebar_li">
-                            <a href="#">Martes</a>
-                        </li>
-                        <li class="sidebar_li">
-                            <a  href="#">Miércoles</a>
-                        </li>
-                        <li class="sidebar_li">
-                            <a href="#">Jueves</a>
-                        </li>
-                        <li class="sidebar_li">
-                            <a href="#">Viernes</a>
-                        </li>
-                    </ul>
-                 </div>
-                 <div class="sidebar_menu">
-                    <h3 class="sidebar_h3">03/11/24</h3>
-                 </div>
-                 <div class="sidebar_menu">
-                    <h4 class="sidebar_h4">Puntos acumulados</h4>
-                    <h3 class="sidebar_h3">300 puntos</h3>
-                 </div>
-                 
-            </div>
-            <div class="grid_t1">
-                <div class="tarjeta">
-                    <h6 class="tarjeta_h6">Reciclamos</h6>
-                    <img src="/image/reciclamos.png" alt="reciclar" width="75%" height="auto">
-                    <h6>10 puntos</h6>
-                    <button class="boton">Agregar</button>
-                </div>
-            </div>
-            <div class="grid_t2">
-                <div class="tarjeta">
-                    <h6 class="tarjeta_h6">Limpiamos el aula</h6>
-                    <img src="/image/limpieza.png" alt="limpiar" width="75%" height="auto">
-                    <h6>10 puntos</h6>
-                    <button class="boton">Agregar</button>
-                </div>
-            </div>
-            <div class="grid_t3">
-                <div class="tarjeta">
-                    <h6 class="tarjeta_h6">Cuidamos las plantas</h6>
-                    <img src="/image/regar.png" alt="regar" width="75%" height="auto">
-                    <h6>10 puntos</h6>
-                    <button class="boton">Agregar</button>
-                </div>
-            </div>
-            <div class="grid_t4">
-                <div class="tarjeta">
-                    <h6 class="tarjeta_h6">Hablamos con respeto</h6>
-                    <img src="/image/respeto.png" alt="respetar" width="75%" height="auto">
-                    <h6>10 puntos</h6>
-                    <button class="boton">Agregar</button>
-                </div>
-            </div>
-            <div class="grid_t5">
-                <div class="tarjeta">
-                    <h6 class="tarjeta_h6">Uniforme limpio y sano</h6>
-                    <img src="/image/uniforme.png" alt="uniforme" width="75%" height="auto">
-                    <h6>10 puntos</h6>
-                    <button class="boton">Agregar</button>
-                </div>
-            </div>
-            <div class="grid_t6">
-                <div class="tarjeta">
-                    <h6 class="tarjeta_h6">Traemos todos los útiles</h6>
-                    <img src="/image/utiles.png" alt="utiles" width="75%" height="auto">
-                    <h6>10 puntos</h6>
-                    <button class="boton">Agregar</button>
-                </div>
-            </div>
-            <div class="grid_t7">
-                <div class="tarjeta">
-                    <h6 class="tarjeta_h6">Prestamos atención al profe</h6>
-                    <img src="/image/atencion.png" alt="atencion" width="75%" height="auto">
-                    <h6>10 puntos</h6>
-                    <button class="boton">Agregar</button>
-                </div>
-            </div>
-            <div class="grid_t8">
-                <div class="tarjeta">
-                    <h6 class="tarjeta_h6">Somos buenos compañeros</h6>
-                    <img src="/image/compañeros.png" alt="compañeros" width="75%" height="auto">
-                    <h6>10 puntos</h6>
-                    <button class="boton">Agregar</button>
-                </div>
+            <div class="cont_banner_2">
+                <img  class="img-fluid" src="/image/portada.png" alt="portada">
             </div>
         </div>
-    </section>
-</main> 
-<!-- Main final -->   
-<!-- Footer Inicio -->   
-<footer>
-    <section class="grid_cont_footer">
-        <div class="grid_footer1">
-            <h4>Comunicate con nosotros</h4>
+    </div>   
+</section>
+
+<section class="my-3">
+<div class="row w-100 contenedor_puntos">
+  <div class="col-sm-3 text-center">
+    <h3>Hoy es...</h3>
+    <a class="btn btn-primary my-3">08/11/2024</a>
+  <div>
+    <h3>Puntos acumulados</h3>
+    <a class="btn btn-primary my-3">250 puntos</a>
+  </div>
+  <div>
+    <h3>Premios</h3>
+    <a href="/premios.html" class="btn btn-danger my-3">Canjear aqui</a>
+  </div>
+  <div>
+    <p class="buena_accion">Porque cada buena acción <span>cuenta</span></p>
+    <img src="/image/feliz.jpg" class="img-fluid">
+  </div>
+ </div>
+  <div class="col-sm-8">
+  <div class="container text-center">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-80">
+          <img src="/image/uniforme.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Usamos el uniforme</h5>
+            <h6 class="card-title">10 puntos</h6>
+            <a href="#" class="boton_mas btn btn-primary">Agregar</a>
+          </div>
         </div>
-            <form class="grid_footer2" action="">
+      </div>
+      
+      <div class="col">
+        <div class="card h-80">
+          <img src="/image/atencion.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Prestamos atención</h5>
+            <h6 class="card-title">10 puntos</h6>
+            <a href="#" class="boton_mas btn btn-primary">Agregar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80">
+          <img src="/image/reciclamos.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Reciclamos la basura</h5>
+            <h6 class="card-title">10 puntos</h6>
+            <a href="#" class="boton_mas btn btn-primary">Agregar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80">
+          <img src="/image/regar.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cuidamos el jardín</h5>
+            <h6 class="card-title">10 puntos</h6>
+            <a href="#" class="boton_mas btn btn-primary">Agregar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80">
+          <img src="/image/limpieza.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mantenemos la limpieza</h5>
+            <h6 class="card-title">10 puntos</h6>
+            <a href="#" class="boton_mas btn btn-primary">Agregar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80">
+          <img src="/image/horario.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Llegamos a horario</h5>
+            <h6 class="card-title">10 puntos</h6>
+            <a href="#" class="boton_mas btn btn-primary">Agregar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80">
+          <img src="/image/compañeros.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Trabajamos en equipo</h5>
+            <h6 class="card-title">10 puntos</h6>
+            <a href="#" class="boton_mas btn btn-primary">Agregar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80">
+          <img src="/image/utiles_escolares.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Traemos todos los útiles</h5>
+            <h6 class="card-title">10 puntos</h6>
+            <a href="#" class="boton_mas btn btn-primary">Agregar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section-->
+<section class="page-section" id="contact">
+    <div id="contact_contenedor">
+    <div class="container" >
+        <!-- Encabezado footer-->
+        <h2 id="titulo_formulario" class="page-section-heading">Contactanos</h2>
+        <!-- Formulario -->
+        <div class="row justify-content-left py-3">
+            <div class="col-lg-6 col-xl-6 ">
+                <form id="contactForm">
+                    <!-- Formulario nombre-->
+                    <div class="form-floating mb-2">
+                        <input class="form-control" id="name" type="text" placeholder="Ingresa tu nombre..." data-sb-validations="required" />
+                        <label for="name">Nombre completo</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">Se requiere un nombre completo</div>
+                    </div>
+                    <!-- Formulario correo electronico-->
+                    <div class="form-floating mb-2">
+                        <input class="form-control" id="email" type="email" placeholder="nombre@ejemplo.com" data-sb-validations="required,email" />
+                        <label for="email">Correo electrónico</label>
+                        <div class="invalid-feedback" data-sb-feedback="email:required">Se requiere un correo electrónico.</div>
+                        <div class="invalid-feedback" data-sb-feedback="email:email">El correo no es válido</div>
+                    </div>
+                    <!-- Formulario mensaje-->
+                    <div class="form-floating mb-2">
+                        <textarea class="form-control" id="message" type="text" placeholder="Ingresa tu mensaje aquí..." style="height: 5rem" data-sb-validations="required"></textarea>
+                        <label for="message">Mensaje</label>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">Se requiere un mensaje</div>
+                    </div>
+                    <!-- Botón de envio-->
+                    <button class="btn btn-primary btn-xl my-2" id="submitButton" type="submit">Enviar</button>
+                </form>
                 
-                    <div>
-                        <label for="Nombre">Nombre:</label>
-                        <input type="text" placeholder="nombre y apellido (padre, madre o tutor)">
-                    </div>
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" placeholder="Correo electrónico">
-                    </div>
-                    <div>
-                        <label for="telefono">Teléfono:</label>
-                        <input type="text" placeholder="Teléfono">
-                    </div>    
-                    <div>
-                        <label for="text">Familiar de:</label>
-                        <input placeholder="nombre y apellido del estudiante"></input>
-                    </div>
-                    <div>
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea placeholder="Escribe tu mensaje"></textarea>
-                    </div>
-                    <input type="submit" value="Enviar">
-              </div>
-         </form>
-         <div class="grid_footer3">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13144.249004662779!2d-58.6912085!3d-34.5519792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd079b4824dd%3A0xb965a7c239ec7feb!2sColegio%20Tolkien!5e0!3m2!1ses-419!2sar!4v1730677304149!5m2!1ses-419!2sar" width="100%" height="100%" allowfullscreen="" loading="lazy" eferrerpolicy="no-referrer-when-downgrade"></iframe> 
-         </div>
-        <div class="grid_footer4">
-            <p>Al cole lo hacemos mejor entre todos 😋</p>
-            <p>Derechos reservados &copy; 2024 - Romina Garcia Rojas</p>
-            <a href="#" class="boton"><i class="fa fa-angle-double-up"></i></a>            
+            </div>
+            <div class="col-lg-6 pb-3">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13144.249004662779!2d-58.6912085!3d-34.5519792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd079b4824dd%3A0xb965a7c239ec7feb!2sColegio%20Tolkien!5e0!3m2!1ses-419!2sar!4v1730677304149!5m2!1ses-419!2sar" width="100%" height="100%" allowfullscreen="" loading="lazy" eferrerpolicy="no-referrer-when-downgrade" class="mb-3"></iframe> 
+            </div>
         </div>
-    </section>
+    </div>
+</div>
+</section>
+<!-- Footer-->
+
+<!-- Copyright Section-->
+<footer   id="footer_derechos" class="copyright py-3 text-center">
+    <div class="container">
+      <div>
+        <div>
+        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook"></i></a>
+        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-whatsapp"></i></a>
+        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
+    </div>
+    <div>
+      <p class="my-2">Derechos reservados &copy; 2024 - Romina Garcia Rojas</p>
+      <a href="#" class="boton"><i class="fa fa-angle-double-up"></i></a>     
+    </div>
 </footer>
-<!-- Footer final -->      
- </body>  
+
+</body>
+</html>
+

@@ -16,73 +16,9 @@ body {
   background-color: #fff;
 }
 
-.grid_nav{
-  display: grid;
-  align-items: center;
-  background-color: rgb(245, 242, 242);
-  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
-  grid-template-columns: auto 10% 10% 10% 10% 10%;
-  grid-template-areas: 
-  'nav_logo nav_list1 nav_list2 nav_list3 nav_list4 nav_audio';
+#contenedor_banner{
+padding: 0;
 }
-
-.nav_logo {
-  align-items: center;
-  padding-left: 1rem;
-  grid-area: nav_logo;
-}
-.nav_list1 {
-  text-align: center;
-  grid-area: nav_list1;
-}
-.nav_list2 {
-  text-align: center;
-  grid-area: nav_list2;
-}
-.nav_list3 {
-  text-align: center;
-  text-decoration: none;
-  grid-area: nav_list3;
-}
-.nav_list4 {
-  text-align: center;
-  grid-area: nav_list4;
-}
-.nav_audio {
-  padding-left: 1rem;
-  grid-area: nav_audio;
-}
-
-.grid_nav a {
-  color:rgb(43, 42, 42);
-  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: none;
-  text-align: center;
-}
-
-.nav_logo p{
-  margin:0;
-  padding: 0.5rem;
-}
-
-.text_logo{
-  font-family: "Handbell", cursive;
-  font-size: 25px;
-  color: #007bff;
-}
-
-.estudiante{
-  color:  #007bff;
-  font-family: "Handlee", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size:70%;
-}
-
-.boton_unirse{
-  background-color: #007bff;
-}
-
 
 h1{
   color:  #fff;
@@ -93,6 +29,13 @@ h1{
   padding-top: 2rem;
 }
 
+.navbar_h2{
+  font-family: "Handlee", cursive;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 .banner_text{
   color:  #fff;
   font-size: large;
@@ -102,123 +45,10 @@ h1{
   color:  #fff;
   font-size: 1.5rem;
 }
-.cont {
-  display: grid;
-  background-color: rgb(245, 242, 242);
-  grid-template-columns: auto 20% 20% 20% 20%;
-  gap: 1rem;
-  grid-template-areas: 
-  'banner banner banner banner banner'
-  'sidebar t1 t2 t3 t4'
-  'sidebar t5 t6 t7 t8'
-  'footer footer footer footer footer';
-}
-
-.cont_banner_1 {
-  padding-left: 4rem;
-  }
-.cont_banner_2 img{
-padding-left: 4rem;
-}
-
-.grid_banner {
-  border: 1px solid grey;
-  grid-area: banner;
-}
-.grid_sidebar {
-  grid-area: sidebar;
-}
-.grid_t1 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t1;
-}
-.grid_t2 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t2;
-}
-.grid_t3 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t3;
-}
-.grid_t4 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t4;
-}
-.grid_t5 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t5;
-}
-.grid_t6 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t6;
-}
-.grid_t7 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t7;
-}
-.grid_t8 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t8;
-}
-.grid_t9 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t9;
-}
-.grid_t10 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t10;
-}
-.grid_t11 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t11;
-}
-.grid_t12 {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid grey;
-  grid-area: t12;
-}
-.grid_footer {
-  border: 1px solid grey;
-  grid-area: footer;
-}
 
 .cont_banner {
   display: grid;
+  text-align: center;
   grid-template-columns: 1fr 1fr;
   background-color: #007bff;
   align-items: center;
@@ -230,64 +60,37 @@ padding-left: 4rem;
 
 .cont_banner_1 {
   grid-area: cont_banner_1;
-  text-align: center; 
+  text-align: right; 
+  padding-left: 2rem;
+
 }
 
 .cont_banner_2 {
   grid-area: cont_banner_2;
 }
 
-.tarjeta {
-  padding: 1%;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  height: 100%; 
+.span_banner{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
 }
 
-.sidebar_menu{
-  padding-left: 1rem;
-  color:  grey;
+.buena_accion{
+  font-family: "Handlee", cursive;
+  font-size: larger;
 }
-.sidebar_lista{
-  list-style: none;
+.buena_accion span{
+  font-weight: bold;
 }
 
-.sidebar_li a{
-  font-size: large;
-  color:rgb(43, 42, 42);
-  text-decoration: none;
-}
-.boton{
+.boton_mas{
   background-color: #007bff;
   color: #fff;
-  padding: 5px 10px;
-  border: grey solid 1px;
-  cursor: pointer;
-  font-family: "Handlee";
-  border-radius: 10px ;
-}
-.sidebar_h4{
-  color: #007bff;
-}
-
-.sidebar_h3{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  color: rgb(43, 42, 42);
-  font-family: "Handlee";
+  border-radius: 1.5rem;
   font-weight: bold;
-  text-decoration: underline;
-  text-align: center;
-  border-radius: 10px ;
-  
-}
-
-.tarjeta_h6{
-  color: rgb(43, 42, 42);
-  font-weight: bold;
-  font-size: 1rem;
-  font-family: "Inter",Verdana, Geneva, Tahoma, sans-serif
+  font-size: 15px;
+  margin: 0;
+  padding: auto;
 }
 
 .grid_cont_footer{
@@ -342,4 +145,51 @@ padding-left: 4rem;
   padding: 5px 5px;
   margin-top: 1rem;
   border-radius: 8px;
+}
+
+.banner_text{
+  font-size: 1.2rem;
+}
+
+.contenedor_puntos{
+  padding-left: 2rem;
+}
+
+#contact{
+  background: #007bff;
+}
+#titulo_formulario{
+padding-top: 1rem;
+text-align: left;
+
+}
+
+#footer_derechos{
+  background: #007bff;
+  color:#fff;
+}
+#footer_contenedor{
+  background-image: url(./image/niños_felices2.jpg);
+  background-size: cover;
+}
+.footer_contenedor_trans{
+  background-color: rgba(253, 252, 252, 0.7);
+}
+.boton{
+  color:#fff;
+  border: solid #fff 1px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+#contact{
+  background-image: url(/image/niños_felices2.jpg);
+  background-size:contain;
+  margin: 0;
+  padding: 0;
+}
+#contact_contenedor{
+  background-color: rgba(253, 252, 252, 0.7);
+  border-top: solid 10px #007bff;
+  border-bottom: solid 2px #007bff;
 }
