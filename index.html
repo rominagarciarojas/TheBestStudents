@@ -187,23 +187,23 @@
         <!-- Formulario -->
         <div class="row justify-content-left py-3">
             <div class="col-lg-6 col-xl-6 ">
-                <form id="contactForm">
+                <form id="contactForm" action="https://formspree.io/f/mrbgkere" method="POST">
                     <!-- Formulario nombre-->
                     <div class="form-floating mb-2">
-                        <input class="form-control" id="name" type="text" placeholder="Ingresa tu nombre..." data-sb-validations="required" />
+                        <input class="form-control" id="name" type="text" name="name" placeholder="Ingresa tu nombre..." data-sb-validations="required" />
                         <label for="name">Nombre completo</label>
                         <div class="invalid-feedback" data-sb-feedback="name:required">Se requiere un nombre completo</div>
                     </div>
                     <!-- Formulario correo electronico-->
                     <div class="form-floating mb-2">
-                        <input class="form-control" id="email" type="email" placeholder="nombre@ejemplo.com" data-sb-validations="required,email" />
+                        <input class="form-control" id="email" type="email" name="email" placeholder="nombre@ejemplo.com" data-sb-validations="required,email" />
                         <label for="email">Correo electrónico</label>
                         <div class="invalid-feedback" data-sb-feedback="email:required">Se requiere un correo electrónico.</div>
                         <div class="invalid-feedback" data-sb-feedback="email:email">El correo no es válido</div>
                     </div>
                     <!-- Formulario mensaje-->
                     <div class="form-floating mb-2">
-                        <textarea class="form-control" id="message" type="text" placeholder="Ingresa tu mensaje aquí..." style="height: 5rem" data-sb-validations="required"></textarea>
+                        <textarea class="form-control" id="message" type="text" name="message" placeholder="Ingresa tu mensaje aquí..." style="height: 5rem" data-sb-validations="required"></textarea>
                         <label for="message">Mensaje</label>
                         <div class="invalid-feedback" data-sb-feedback="message:required">Se requiere un mensaje</div>
                     </div>
