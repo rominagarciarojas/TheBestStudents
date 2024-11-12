@@ -27,6 +27,7 @@ h1{
   font-style: normal;
   font-size: 100px;
   padding-top: 2rem;
+  text-shadow:2px 2px 1px rgba(32,32,32,0.3);
 }
 
 .navbar_h2{
@@ -43,6 +44,7 @@ h1{
 
 .banner_text_h4{
   color:  #fff;
+  text-shadow:1px 1px 1px rgba(32,32,32,0.3);
   font-size: 1.5rem;
 }
 
@@ -51,7 +53,7 @@ h1{
   text-align: center;
   grid-template-columns: 1fr 1fr;
   background: rgb(7,96,201);
-  background: linear-gradient(90deg, rgba(7,96,201,1) 10%, rgba(0,153,255,1) 60%, rgba(4,199,238,1) 100%, rgba(131,131,233,1) 100%);
+  background: linear-gradient(270deg, rgba(7,96,201,1) 10%, rgba(0,153,255,1) 60%, rgba(4,199,238,1) 100%, rgba(131,131,233,1) 100%);
   align-items: center;
   grid-template-areas: 
   'cont_banner_1 cont_banner_2'
@@ -167,7 +169,7 @@ text-align: left;
 
 #footer_derechos{
   background: rgb(7,96,201);
-  background: linear-gradient(90deg, rgba(7,96,201,1) 10%, rgba(0,153,255,1) 60%, rgba(4,199,238,1) 100%, rgba(131,131,233,1) 100%);
+  background: linear-gradient(270deg, rgba(7,96,201,1) 10%, rgba(0,153,255,1) 60%, rgba(4,199,238,1) 100%, rgba(131,131,233,1) 100%);
   color:#fff;
 }
 #footer_contenedor{
