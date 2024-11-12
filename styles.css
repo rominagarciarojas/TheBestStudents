@@ -50,8 +50,8 @@ h1{
   display: grid;
   text-align: center;
   grid-template-columns: 1fr 1fr;
-  background-color: #0093E9;
-  background-image: linear-gradient(90deg, #0093E9 64%, #80D0C7 100%);
+  background: rgb(7,96,201);
+  background: linear-gradient(90deg, rgba(7,96,201,1) 10%, rgba(0,153,255,1) 60%, rgba(4,199,238,1) 100%, rgba(131,131,233,1) 100%);
   align-items: center;
   grid-template-areas: 
   'cont_banner_1 cont_banner_2'
@@ -166,8 +166,8 @@ text-align: left;
 }
 
 #footer_derechos{
-  background-color: #0093E9;
-  background-image: linear-gradient(90deg, #0093E9 64%, #80D0C7 100%);
+  background: rgb(7,96,201);
+  background: linear-gradient(90deg, rgba(7,96,201,1) 10%, rgba(0,153,255,1) 60%, rgba(4,199,238,1) 100%, rgba(131,131,233,1) 100%);
   color:#fff;
 }
 #footer_contenedor{
