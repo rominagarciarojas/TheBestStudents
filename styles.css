@@ -193,3 +193,39 @@ text-align: left;
   border-top: solid 10px #007bff;
   border-bottom: solid 2px #007bff;
 }
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  /* Aquí van los estilos que quieres aplicar cuando la pantalla sea más estrecha de 767px */
+  nav ul {
+    display: none;
+  }
+
+  #contenedor_banner {
+    width: 200%;
+    grid-template-columns: 1fr;   
+  }
+  .cont_banner_1{
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #contenedor_banner h1{
+    font-size: 4rem;
+  }
+  #contenedor_banner h4{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+  }
+  #contenedor_banner p{
+    font-size: 1rem;
+  }
+  #contenedor_banner span{
+    font-size: 1rem;
+  }
+  #imagen_principal {
+    display: none;
+    
+  }
+}
