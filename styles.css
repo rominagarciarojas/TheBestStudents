@@ -50,7 +50,8 @@ h1{
   display: grid;
   text-align: center;
   grid-template-columns: 1fr 1fr;
-  background-color: #007bff;
+  background-color: #0093E9;
+  background-image: linear-gradient(90deg, #0093E9 64%, #80D0C7 100%);
   align-items: center;
   grid-template-areas: 
   'cont_banner_1 cont_banner_2'
@@ -165,7 +166,8 @@ text-align: left;
 }
 
 #footer_derechos{
-  background: #007bff;
+  background-color: #0093E9;
+  background-image: linear-gradient(90deg, #0093E9 64%, #80D0C7 100%);
   color:#fff;
 }
 #footer_contenedor{
@@ -173,7 +175,7 @@ text-align: left;
   background-size: cover;
 }
 .footer_contenedor_trans{
-  background-color: rgba(253, 252, 252, 0.7);
+  background-color: rgba(253, 252, 252, 0.9);
 }
 .boton{
   color:#fff;
@@ -183,15 +185,13 @@ text-align: left;
 }
 
 #contact{
-  background-image: url(/image/niños_felices2.jpg);
-  background-size:contain;
+  background-image: url(/image/feliz.jpg);
+  background-size:cover;
   margin: 0;
   padding: 0;
 }
 #contact_contenedor{
-  background-color: rgba(253, 252, 252, 0.7);
-  border-top: solid 10px #007bff;
-  border-bottom: solid 2px #007bff;
+  background-color: rgba(253, 252, 252, 0.7);  
 }
 
 
