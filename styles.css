@@ -203,13 +203,13 @@ text-align: left;
   }
 
   #contenedor_banner {
-    width: 200%;
     grid-template-columns: 1fr;   
   }
   .cont_banner_1{
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
+    width: 100vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   #contenedor_banner h1{
     font-size: 4rem;
