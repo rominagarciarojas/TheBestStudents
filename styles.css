@@ -30,6 +30,10 @@ h1{
   text-shadow:2px 2px 1px rgba(32,32,32,0.3);
 }
 
+.nav-link{
+  text-align: right;
+}
+
 .navbar_h2{
   font-family: "Handlee", cursive;
   align-items: center;
@@ -161,10 +165,10 @@ h1{
 #contact{
   background: #007bff;
 }
+
 #titulo_formulario{
 padding-top: 1rem;
 text-align: left;
-
 }
 
 #footer_derechos{
@@ -172,10 +176,7 @@ text-align: left;
   background: linear-gradient(270deg, rgba(7,96,201,1) 10%, rgba(0,153,255,1) 60%, rgba(4,199,238,1) 100%, rgba(131,131,233,1) 100%);
   color:#fff;
 }
-#footer_contenedor{
-  background-image: url(./image/niños_felices2.jpg);
-  background-size: cover;
-}
+
 .footer_contenedor_trans{
   background-color: rgba(253, 252, 252, 0.9);
 }
@@ -187,7 +188,7 @@ text-align: left;
 }
 
 #contact{
-  background-image: url(/image/feliz.jpg);
+  background-image: url(/image/libres2.jpg);
   background-size:cover;
   margin: 0;
   padding: 0;
