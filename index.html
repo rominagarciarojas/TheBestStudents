@@ -17,7 +17,7 @@
     <title>Estudiante 10!</title>
 </head>
 <body>
-
+  
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -40,11 +40,9 @@
                     <a class="nav-link" href="#contact">Contacto</a>
                 </li>
               <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa-solid fa-volume-high">
-                        <audio src="/music/musicOne.mp3" autoplay loop></audio>
-                        </i>
-                    </a>
+                <audio id="myAudio" src="/music/musicOne.mp3"></audio>
+                <button id="playPause" class="border-0 bg-light py-2">
+                <i class="fa-solid fa-circle-play"></i> </button>
               </li>
             </ul>
           </div>
@@ -52,7 +50,7 @@
       </nav>
 </header>
 
-<!-- Main Inicio -->   
+
 <main>
 <section>
  <div id="contenedor_banner" class="container-fluid">
@@ -62,24 +60,29 @@
                 <h4 class="banner_text_h4">¡Al colegio lo hacemos entre todos!</h4>
                 <h1>Estudiante <i class="fa-solid fa-1"></i><i class="fa-solid fa-0"></i>!</h1>
                 <p class="banner_text"><span class="span_banner">Cada buena acción que hacemos en la escuela tiene premio</span>. Acumulá la mayor cantidad de puntos con tus compañeros y canjealos por <span class="span_banner">grandes premios</span>. </p>
-                
             </div>
             <div class="cont_banner_2">
                 <img id="imagen_principal" class="img-fluid" src="/image/portada.png" alt="portada">
             </div>
         </div>
+ 
     </div>   
 </section>
+
 
 <section class="my-3">
     <div class="row w-100 contenedor_puntos">
         <div class="col-sm-3 text-center">
-            <h3>Hoy es...</h3>
-            <a class="btn btn-primary my-3">08/11/2024</a>
             <div>
+                <br>
+                <br>
                 <h3>Puntos acumulados</h3>
-                <a class="btn btn-primary my-3">250 puntos</a>
+                <ul id="carrito" class="list-group"></ul>
+                <p class=" btn btn-primary my-3 text-right">Total: <span id="total"></span> puntos</p>
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
             </div>
+            <br>
+            <br>
             <div>
                 <h3>Premios</h3>
                 <a href="/premios.html" class="btn btn-danger my-3">Canjear aqui</a>
@@ -89,95 +92,17 @@
                 <img src="/image/feliz.jpg" class="img-fluid">
             </div>
         </div>
-    <div class="col-sm-8">
+
+ 
+      <div  class="col-sm-8">
         <div class="container text-center">
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                    <div class="card h-80">
-                        <img src="/image/uniforme.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Usamos el uniforme</h5>
-                        <h6 class="card-title">10 puntos</h6>
-                        <a href="#" class="boton_mas btn btn-primary">Agregar</a>
-                    </div>
-                    </div>
-                </div>
-        <div class="col">
-            <div class="card h-80">
-                <img src="/image/atencion.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Prestamos atención</h5>
-                <h6 class="card-title">10 puntos</h6>
-                <a href="#" class="boton_mas btn btn-primary">Agregar</a>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-80">
-                <img src="/image/reciclamos.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Reciclamos la basura</h5>
-                <h6 class="card-title">10 puntos</h6>
-                <a href="#" class="boton_mas btn btn-primary">Agregar</a>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-80">
-                <img src="/image/regar.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Cuidamos el jardín</h5>
-                <h6 class="card-title">10 puntos</h6>
-                <a href="#" class="boton_mas btn btn-primary">Agregar</a>
-            </div>
-            </div>
-        </div>
-    <div class="col">
-        <div class="card h-80">
-                <img src="/image/limpieza.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Mantenemos la limpieza</h5>
-                <h6 class="card-title">10 puntos</h6>
-                <a href="#" class="boton_mas btn btn-primary">Agregar</a>
-            </div>
+            <div id="items" class="row row-cols-1 row-cols-md-4 g-4">
+                <!-- Cards acciones -->
         </div>
     </div>
-        <div class="col">
-            <div class="card h-80">
-                <img src="/image/horario.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Llegamos a horario</h5>
-                <h6 class="card-title">10 puntos</h6>
-                <a href="#" class="boton_mas btn btn-primary">Agregar</a>
-            </div>
-        </div>
     </div>
-        <div class="col">
-            <div class="card h-80">
-                <img src="/image/compañeros.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Trabajamos en equipo</h5>
-                <h6 class="card-title">10 puntos</h6>
-                <a href="#" class="boton_mas btn btn-primary">Agregar</a>
-            </div>
-            </div>
-        </div>
-    <div class="col">
-            <div class="card h-80">
-                <img src="/image/utiles_escolares.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Traemos todos los útiles</h5>
-                <h6 class="card-title">10 puntos</h6>
-                <a href="#" class="boton_mas btn btn-primary">Agregar</a>
-            </div>
-            </div>
-        </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
 </section>
+
 
 <!-- Contact Section-->
 <section class="page-section" id="contact">
@@ -239,6 +164,7 @@
       <a href="#" class="boton"><i class="fa fa-angle-double-up"></i></a>     
     </div>
 </footer>
+<script src="/js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
